@@ -1,0 +1,21 @@
+---
+version_id: "0.1.0-SNAPSHOT"
+environment_id: "7e29286a-3685-4410-9341-1880e81365e0"
+creation_date: 1515062687400
+last_update_date: 1515062725252
+orchestrator_id: "bed8298c-d7d4-409b-9c04-ef335275b445"
+location_groups:
+  _A4C_ALL:
+    name: "_A4C_ALL"
+    members:
+    - "Compute"
+    index: 0
+    policies:
+    - name: "Location policy"
+      location_id: "72865d60-b92b-4cb3-9b1a-122041b0c6e2"
+      type: "tosca.policies.Placement.Location"
+matched_location_resources:
+  Compute: "1a5aab54-4e27-488f-872e-18c35805020d"
+location_ids:
+  _A4C_ALL: "72865d60-b92b-4cb3-9b1a-122041b0c6e2"
+id: "0.1.0-SNAPSHOT::7e29286a-3685-4410-9341-1880e81365e0"
